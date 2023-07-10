@@ -1,0 +1,127 @@
+﻿
+# **Father's Essays Blog** 📚✍️🎓
+
+This project is dedicated to the dissemination of a collection of essays penned by my wife's father. Initially, there was an aspiration to publish these thought-provoking pieces in a book, but the cost of publication made this option untenable. As an alternative, we decided to create a blog, providing a cost-effective platform for sharing his wisdom. Moreover, this endeavor serves as an avenue for me to hone my web development skills.
+
+The essays cover a myriad of topics and are primarily geared towards the ultra-Orthodox audience. As the project evolves, we plan on incorporating article filters and other features to enrich the user experience.
+
+## **Table of Contents** 📝
+1. [Installation Instructions](#installation-instructions)
+2. [Usage](#usage)
+3. [Contributing](#contributing)
+4. [License](#license)
+5. [Contact Information](#contact-information)
+6. [Credits](#credits)
+7. [Screenshots](#screenshots)
+8. [Badges](#badges)
+9. [Frequently Asked Questions (FAQs)](#FAQs)
+
+## **Installation Instructions** ⚙️ <a name="installation-instructions"></a>
+
+Please follow these step-by-step instructions to get this project up and running on your local machine.
+
+1. Clone the repository 
+2. Install all dependencies using npm install
+3. To start the server, run the command npm start
+
+_**Note:** More detailed instructions regarding dependencies and their installation will be provided._
+
+## **Usage** 💡 <a name="usage"></a>
+
+### **Registration and Login** 
+Upon launching the site, you will be presented with a registration screen. After filling in all necessary details, and validating your email and password, you will then be redirected to the login screen. Once successfully logged in, you will have access to the various essays.
+
+### **Navigating the Blog** 
+You will find a broad range of articles to read. To make the navigation easier, we plan to introduce article filters in the future, allowing users to peruse articles based on their preferred categories.
+
+### **Additional Features**
+On the side of each article, we've incorporated an element which displays the current time—a small touch to provide added value for our users. 
+
+Users also have the ability to comment on articles, fostering interaction between the author and the readers.
+
+## **Contributing** 🤝 <a name="contributing"></a>
+
+If you'd like to contribute to this project, please reach out to us. More information on our code of conduct and the process for submitting pull requests will be provided.
+
+## **License** 📄 <a name="license"></a>
+
+This project is licensed under the MIT License. More details can be found [here](https://choosealicense.com/licenses/mit/).
+
+## **Contact Information** 📞 <a name="contact-information"></a>
+
+For any questions or if you would like to participate in this project, feel free to reach out to us at email@example.com
+
+## **Credits** 👏 <a name="credits"></a>
+
+This project wouldn't have been possible without the open-source community. We'd like to acknowledge and thank all those whose code was used in the development of this blog.
+
+## **Screenshots** 🖼️ <a name="screenshots"></a>
+
+_Screenshots of the project will be uploaded soon._
+
+## **Badges** 🏅 <a name="badges"></a>
+
+_We will add badges from [shields.io](https://shields.io/) to display the current state of the project._
+
+## **Frequently Asked Questions (FAQs)** ❓ <a name
+
+="FAQs"></a>
+
+We will soon compile a list of frequently asked questions to assist users in troubleshooting common issues.
+
+_More details will be added as the project continues to evolve._
+
+Please note, this README is the first point of contact for anyone encountering this project. So, it is important to ensure that it is easy to read, thorough, and user-friendly.
+
+
+
+
+
+
+
+
+
+
+
+פרויקט זה הנו בלוג שבו מתפרסמים מאמרים בנושאים אקטואליים לחיי היומיום.
+המטרה הינה לפתח בלוג בשפה פשוטה וברורה עם עיצוב משתמש נקי.
+
+המאמרים יעלו תוך חלוקה למספר קטגוריות שונות. ותהיה אופציה למשתמשים רשומים להגיב במאמרים.
+
+בהמשך הייתי מעוניין להציג גרסה נוספת שבה אוסיף אינדקס נושאים/חיפוש ואת האופציה לחיפוש וסינון המאמרים לפי רשימת נושאים.
+
+במסמך הפתיחה יופיע טופס כניסה, כאשר מופיע קישור לטופס הרשמה
+בטופס הרשמה יש שדות שבהם המשתמש צריך להכניס שם מלא, שם משתמש, מייל וסיסמא.
+ביצעתי שם ולידציות שהשם המלא שהוכנס מכיל רק תווים מה-א' ב' והוא לפחות באורך 2 אותיות, כמו כן בוצעה שם ולידציה על הכתובת מייל שהוכנסה שהיא תקינה, בשלב הסיסמא גם בדקתי שאורך הסיסמא היא לפחות 6 תווים ושגם באימות סיסמא הוכנסה סיסמא תואמת
+
+אני מעוניין לעשות (1) שמירת מנויים (2) כאשר הלא מנויים יוכלו רק לקרוא את המאמרים והתגובות והמנויים יוכלו בנוסף (3) להעלות פוסטים משלהם, (4) ולהגיב ולערוך תגובות (בשלב הראשוני זה יתבצע לקובץ טקסט מקומי).
+
+לדאוג שזמני היום יהיו מעודכנים בצורת אונליין (בקשת API חיצונית, ג'ייסון/fromData)
+
+אינדקס וחיפוש.
+
+
+1. לשלב את קובץ הjs של הכתיבה לקובץ מקומי
+2. בשלב הרישום, לבדוק שהמייל עוד לא רשום
+3. בזמן החיבור של המשתמש לבדוק שהוא באמת מופיע בקובץ מנויים, אחרת להקפיץ הודעת רישום
+4. כאשר המשתמש בא להגיב/לכתוב פוסט לבדוק שהוא מחובר (כאשר המשתמש בא לפרסם את הפוסט, לבדוק שהוא מנוי, אחרת להקפיץ לו הודעת רישום)
+5. למצוא API שיספק את זמני היום מעודכן
+a. לבדוק שהמידע הגיע
+b. לבדוק שהמידע מתעדכן
+6. להוציא את המידע הרצוי ולהכניס אותו לאתר
+7. מיון הפוסטים לפי תגיות/נושאים
+8. להוסיף אופציית חיפוש
+
+
+
+
+
+
+
+
+This project is a blog where articles about daily issues in life are published.
+The goal is to create a blog with simple, straightforward language with a clean user interface.
+
+The articles will be organized into multiple categories. Registered users will also be able to comment on the articles.
+
+In the future, I hope to present another version with the ability to browse, search and sort articles based on an index of subjects.
